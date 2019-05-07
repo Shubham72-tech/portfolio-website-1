@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>George Robescu - Portfolio</title>
+    <link rel="icon" type="image/png" href="img/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono:400,700|Work+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.production.css">
+</head>
+
+<body>
+    <!-- Header including the logo and the main navigation -->
+    <header class="page-header">
+        <!-- Add your logo here -->
+        <img src="img/gr-logo.png" alt="logo" class="page-header__item">
+        <nav class="main-navigation page-header__item">
+            <ul role="menubar" class="navigation-list">
+                <li role="presentation">
+                    <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
+                </li>
+                <li role="presentation">
+                    <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
+                </li>
+                <li role="presentation">
+                    <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
+                </li>
+                <li role="presentation">
+                    <a href="contact.html" class="navigation-list__item navigation-list__item--active" role="menuitem">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="contact">
+        <h1>Contact</h1>
+        George Robescu<br>
+        Street Name & no.<br>
+        ZIP code Berlin<br>
+        Germany<br>
+        <br>
+        Phone <a href="tel:+4917626602616">+49 17626602616</a><br>
+        Skype <a href="skype:georgerobescu">georgerobescu</a><br>
+        email <a href="mailto:georgerobescu@gmail.com">georgerobescu (at) gmail (dot) com</a><br>
+        <br>
+        <a href="mailto:georgerobescu@gmail.com">Contact me!</a>
+    </div>
+    <br>
+    <div>
+        <form action="" method="post" id="contact-form" class="contact__form">
+            <label class="standard-label" for="contact-email">Email: </label>
+            <input type="email" id="contact-email" required>
+            <label class="standard-label" for="contact-tel">Telephone: </label>
+            <input type="tel" id="contact-tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+            <label class="standard-label" for="contact-message">Message: </label>
+            <textarea required maxlength="240" id="contact-message">  </textarea>
+            <input type="submit" value="Send message">
+        </form>
+    </div>
+    <footer class="page__footer">
+      <p>Find me on</p>
+        <div class="social-media">
+          <!-- Github logo -->
+          <a href="https://github.com/georgerobescu" target="_blank"><img src="img/github_icon.svg" alt="github">
+          <!-- Twitter logo -->
+          <a href="https://twitter.com/georgerobescu" target="_blank"><img src="img/twitter_icon.svg" alt="twitter">
+          <!-- LinkedIn logo -->
+          <a href="https://www.linkedin.com/in/georgerobescu/" target="_blank"><img src="img/linkedin_icon.svg" alt="linkedin">
+        </div>
+    </footer>
+    <script src="js/tota11y.min.js"></script>
+</body>
+
+</html>
