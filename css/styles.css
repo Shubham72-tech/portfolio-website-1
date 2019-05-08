@@ -7,20 +7,20 @@ Secondary Color (Orange): #e0b354;
  */
 
 :root {
-  --primary-color: #357b70;
-  --secondary-color: #e0b354;
-  --dark-grey: #2b2b2b;
-  --background-color: #fff;
-  --main-color: #357b70;
-  --link-visited: #05676e;
-  --link-active: #489c79;
-  --button-background-color: #357b70;
-  --button-color: #fff;
-  --button-border-bottom: rgba(0, 0, 0, 0.3);
-  --grid-background-color: #d3d3d3;
-  --keyframe-before: #edc655;
-  --keyframe-after: #f76414;
-  --main-font-weight: 700;
+  --primary-color: #357b70
+  --secondary-color: #e0b354
+  --dark-grey: #2b2b2b
+  --background-color: #fff
+  --main-color: #357b70
+  --link-visited: #05676e
+  --link-active: #489c79
+  --button-background-color: #357b70
+  --button-color: #fff
+  --button-border-bottom: rgba(0, 0, 0, 0.3)
+  --grid-background-color: #d3d3d3
+  --keyframe-before: #edc655
+  --keyframe-after: #f76414
+  --main-font-weight: 700
 }
 
 a {
@@ -249,6 +249,7 @@ grid-row: 3 / 2;
 
 .contact__form {
     text-align: center
+    display: inline-block;
 }
 
 .page__footer {
@@ -260,7 +261,7 @@ grid-row: 3 / 2;
     grid-template-columns: 1fr;
     grid-gap: 10px;
   }
-}  
+}
 
 .grid_item:first-child {
   grid-column: 1 / 2;
@@ -285,14 +286,14 @@ button,
 
 button,
 .button {
-/* your styling goes here */  
+/* your styling goes here */
 }
 
 button:hover,
 button:focus,
 .button:hover,
 .button:focus {
-/* your styling goes here */  
+/* your styling goes here */
 }
 
 .button, button {
