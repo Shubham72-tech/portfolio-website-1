@@ -288,26 +288,6 @@ h1 {
   font-size: 22px;
 }
 
-button,
-.button1,
-.button2,
-.button3,
-.my-input {
-  /* your styling goes here */
-}
-
-button,
-.button {
-  /* your styling goes here */
-}
-
-button:hover,
-button:focus,
-.button:hover,
-.button:focus {
-  /* your styling goes here */
-}
-
 .button,
 button {
   /* overwrites browser defaults and resets the border */
